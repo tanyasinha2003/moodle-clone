@@ -1,3 +1,71 @@
 body {
   background: blue;
 }
+
+/* heading font- dm serif display 
+    body font- open sans,sans-serif
+*/
+
+/* colors: dark-blue:#194866; on-hover-light-blue: #69e0ff; orange:#f98012; grey-text-body-color:#545454*/
+
+.logo {
+  padding-left: 3rem;
+}
+
+.nav-link {
+  color: #194866 !important;
+  font-weight: 600;
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar-nav {
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.dots-icon {
+  width: 3.5rem;
+  padding: 0;
+}
+
+.contact-icon {
+  width: 2.5rem;
+}
+
+.nav-link .contact-icon {
+  padding: 0;
+}
+
+.fa-angle-down {
+  padding-left: 0.2rem;
+}
+
+.initial-li {
+  padding: 0 1rem;
+}
+
+.side-links {
+  margin-left: 13rem;
+  display: flex;
+  align-items: center;
+}
+
+.fa-search {
+  font-size: 1.1rem !important;
+}
+
+.get-moodle {
+  border: 1px solid #194866;
+  border-radius: 20px;
+  padding: 0.2rem 0.9rem !important;
+}
+
+.en-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+}
+.en {
+  margin: 0 1.5rem 0 0;
+}
