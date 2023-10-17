@@ -8,6 +8,16 @@ body {
 
 /* colors: dark-blue:#194866; on-hover-light-blue: #69e0ff; orange:#f98012; grey-text-body-color:#545454*/
 
+h1 {
+  color: #194866;
+  font-size: 4.5rem !important;
+  font-family: "DM Serif Display", serif;
+}
+
+.pad-tb {
+  padding: 5rem 0 !important;
+}
+
 .logo {
   padding-left: 3rem;
 }
@@ -68,4 +78,33 @@ body {
 }
 .en {
   margin: 0 1.5rem 0 0;
+}
+
+.header-text {
+  color: #545454;
+  font-family: "Open Sans", sans-serif;
+}
+
+.right-arrow {
+  width: 4rem;
+}
+
+.btn {
+  display: flex !important;
+  align-items: center;
+  border: 1px solid #194866;
+  border-radius: 20px;
+}
+
+.btn-text {
+  margin: 0;
+  color: #194866;
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding-right: 0.7rem;
+  font-size: 0.9rem;
+}
+
+.fa-arrow-right {
+  font-size: 1.2rem;
 }
