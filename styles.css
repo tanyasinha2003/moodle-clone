@@ -89,11 +89,13 @@ h1 {
   width: 4rem;
 }
 
-.btn {
-  display: flex !important;
+.button {
+  display: flex;
   align-items: center;
   border: 1px solid #194866;
-  border-radius: 20px;
+  border-radius: 30px;
+  width: 11rem;
+  padding: 0.7rem 1.8rem;
 }
 
 .btn-text {
