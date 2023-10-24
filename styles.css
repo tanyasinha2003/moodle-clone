@@ -8,10 +8,20 @@ body {
 
 /* colors: dark-blue:#194866; on-hover-light-blue: #69e0ff; orange:#f98012; grey-text-body-color:#545454*/
 
+a:hover {
+  text-decoration: none !important;
+}
+
 h1 {
   color: #194866;
   font-size: 4.5rem !important;
   font-family: "DM Serif Display", serif;
+}
+
+h2 {
+  font-family: "DM Serif Display", serif;
+  color: #194866;
+  font-size: 3.5rem !important;
 }
 
 .pad-tb {
@@ -96,6 +106,7 @@ h1 {
   border-radius: 30px;
   width: 11rem;
   padding: 0.7rem 1.8rem;
+  margin-top: 3rem;
 }
 
 .btn-text {
@@ -109,4 +120,70 @@ h1 {
 
 .fa-arrow-right {
   font-size: 1.2rem;
+}
+
+.beige {
+  background-color: #fff8f1;
+}
+
+.bg-circle {
+  position: absolute;
+  margin: 0px -21rem;
+}
+
+.pic-one {
+  width: 35rem;
+  border-radius: 20px;
+  margin-top: 7.5rem;
+  margin-left: -1.5rem;
+}
+
+.caption {
+  font-size: 14px;
+  color: #54545a;
+  font-family: open sans, sans-serif;
+  font-weight: 600;
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #545454;
+  font-family: open sans, sans-serif;
+  font-weight: 400;
+  margin: 1.5rem 2rem 0 0;
+}
+
+.sec-pad {
+  padding: 18rem 0 0 4rem !important;
+}
+
+.blue-bg {
+  padding: 0 0 3rem 84rem;
+}
+
+.card {
+  border-radius: 20px !important;
+  width: 23rem;
+  padding: 0 0.2rem;
+}
+
+.card-icon {
+  width: 4rem;
+  margin: 1.5rem;
+}
+
+h3 {
+  font-family: "DM Serif Display", serif;
+  color: #194866;
+  padding-top: 2rem;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #545454;
+  font-family: open sans, sans-serif;
+  font-weight: 400;
+  padding-bottom: 3rem;
 }
