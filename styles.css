@@ -8,6 +8,11 @@ body {
 
 /* colors: dark-blue:#194866; on-hover-light-blue: #69e0ff; orange:#f98012; grey-text-body-color:#545454*/
 
+*::selection {
+  background-color: #f98012;
+  color: white;
+}
+
 a:hover {
   text-decoration: none !important;
 }
@@ -185,5 +190,97 @@ h3 {
   color: #545454;
   font-family: open sans, sans-serif;
   font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.vid-card {
+  width: 35rem;
+  border: none !important;
+}
+
+.card-pd {
   padding-bottom: 3rem;
+}
+
+.pills {
+  display: flex;
+}
+
+.pill {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #194866;
+  color: #fff !important;
+  border-radius: 30px;
+  padding: 0.4rem 0.8rem;
+  margin: 2rem 0.3rem 0 0;
+}
+
+.vid-cover-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.vid-cover-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 38%, #000 100%);
+}
+
+.vid-cover {
+  border-radius: 20px;
+  width: 34rem;
+}
+
+.view-more {
+  font-size: 18px;
+  color: #194866;
+  font-weight: 600;
+  line-height: 22px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.view-more::after {
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  border: 1px solid #194866;
+  border-radius: 20px;
+  padding: 0.5rem 0.6rem;
+  margin: 0 1.5rem;
+}
+
+.view-more:hover::after {
+  background-color: #f98012;
+  cursor: pointer;
+}
+
+.play-button {
+  position: absolute;
+  right: 0;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  width: 3rem;
+  border: 1px solid white;
+  border-radius: 32px;
+  padding: 0.8rem;
+}
+
+.play-button:hover {
+  background-color: #f98012;
+}
+
+.vid-caption {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 5.3rem;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-style: italic;
+  font-family: "Open Sans", sans-serif;
 }
