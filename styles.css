@@ -30,7 +30,7 @@ h2 {
 }
 
 .pad-tb {
-  padding: 5rem 0 !important;
+  padding: 7rem 0 !important;
 }
 
 .logo {
@@ -112,16 +112,34 @@ h2 {
   width: 11rem;
   padding: 0.7rem 1.8rem;
   margin-top: 3rem;
+  color: #194866;
+  font-weight: 600;
+  font-size: 14px;
 }
 
-.btn-text {
+.button::after {
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  margin: 0 0 0 1rem;
+  transition: transform 0.2s, color 0.2s, background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #f98012;
+}
+
+.button:hover::after {
+  transform: translateX(8px);
+}
+
+/* .btn-text {
   margin: 0;
   color: #194866;
   font-weight: 600;
   font-size: 0.875rem;
   padding-right: 0.7rem;
   font-size: 0.9rem;
-}
+} */
 
 .fa-arrow-right {
   font-size: 1.2rem;
@@ -163,7 +181,7 @@ h2 {
   padding: 18rem 0 0 4rem !important;
 }
 
-.blue-bg {
+.blue-quar-pd {
   padding: 0 0 3rem 84rem;
 }
 
@@ -204,6 +222,7 @@ h3 {
 
 .pills {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .pill {
@@ -283,4 +302,68 @@ h3 {
   font-size: 14px;
   font-style: italic;
   font-family: "Open Sans", sans-serif;
+}
+
+.blue-bg {
+  background-color: #194866;
+}
+
+.white {
+  color: white !important;
+}
+
+.card.img-1 {
+  width: 24rem;
+  height: 28rem;
+  position: relative;
+}
+
+.card.img-1::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 38%, #000 100%);
+}
+
+.img-1 {
+  background-image: url("assets/images/card-img-1.webp");
+  background-position: center;
+}
+
+.orange-bg,
+.white-bg {
+  color: #282828 !important;
+  margin: 0.2rem 1rem;
+}
+
+.orange-bg {
+  background-color: #f98012;
+}
+.orange-bg:hover {
+  background-color: aqua;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.num {
+  font-size: 36px;
+  color: #194866;
+  font-family: "DM Serif Display", serif;
+}
+
+.num-caption {
+  font-size: 16px;
+  color: #194866;
+  font-family: "Open Sans", sans-serif;
+}
+
+.pioneer-img {
+  width: 38rem;
+  margin: 0 -5rem;
 }
